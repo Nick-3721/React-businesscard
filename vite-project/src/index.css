@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffa1a1;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  display: contents;
+}
+body {
+  margin: 0;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  margin: 50px auto;
+  width: 500px;
+  border-radius: 25%;
+  background-color: #19191F;
+  border-radius: 10px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+.photo--me {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.wrapper {
+  padding:0 25px;
+}
+
+h1, h3, p {
+  margin: 0 !important;
+}
+
+h1, h3, .website--link {
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 0 0 0;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 400;
+  color: #5f5f5f;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.info--section p {
+  padding-bottom: 35px;
+}
+
+.website--link {
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+.button--wrapper {
+  display: grid;
+  grid-template-columns: Calc(50% - 5px) Calc(50% - 5px);
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.button {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 7px;
+  color: #19191F;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #101012;
+  color: white;
+  fill: white;
+}
+
+.button:hover .email--icon {
+  fill: #fff!important;
+}
+
+.button:hover .linkedin--icon {
+  fill: #4884DA;
+}
+.button:hover .blue {
+  background-color: #fff;
+}
+
+.contact--icon {
+  height: 15px;
+  padding-right: 10px;
+}
+
+.button--text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.blue {
+  background-color: #4884DA;
+  color: white;
+}
+
+.email--icon {
+  fill: #191920!important;
+  transition: 0.3s;
+}
+
+.linkedin--icon {
+  fill: #fff;
+  transition: 0.3s;
+}
+
+.website--link:hover {
+
+  text-decoration: underline;
+  transition: 0.2s;
+}
+footer {
+  background-color: #101012;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0 0 10px 10px;
+}
+.footer--icon {
+  height: 35px;
+  fill: #858585;
+}
+
+a:hover > .twitter {
+  fill:#1C9BEF;
+}
+
+a:hover > .insta {
+  fill: #D110B4; 
+}
+
+a:hover > .github {
+  fill: #fff; 
+}
+
